@@ -1,0 +1,9 @@
+,Model,ID,Authentication,Accuracy,Precision,Recall,F1
+0,AdaBoost,1,True,0.999,0.999,0.994,0.996
+1,Decision Tree,1,True,0.996,0.994,0.987,0.99
+2,Gaussian Naive Bayes,1,True,0.8,0.2,0.002,0.005
+3,Nearest Neighbors,1,True,0.976,0.95,0.931,0.94
+4,Neural Network,1,True,0.992,0.985,0.975,0.98
+5,Quadratic Discriminant Analysis,1,True,0.979,0.998,0.904,0.943
+6,Random Forest,1,True,0.999,1.0,0.993,0.996
+7,Support Vector Machine,1,True,0.993,0.98,0.983,0.982
