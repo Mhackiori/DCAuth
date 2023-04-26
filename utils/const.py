@@ -13,3 +13,11 @@ FIGURES = './Results/Figures/'
 DATASETS = sorted(os.listdir(PROCESSED))
 
 MIN_LENGTH = 90
+
+# Balance
+BALANCES = [
+    [50, 50],
+    [60, 40],
+    [70, 30],
+    [80, 20]
+]

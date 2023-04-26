@@ -1,9 +1,33 @@
-,Model,ID,Authentication,Accuracy,Precision,Recall,F1
-0,AdaBoost,1,True,0.998,0.998,0.992,0.995
-1,Decision Tree,1,True,0.992,0.99,0.971,0.98
-2,Gaussian Naive Bayes,1,True,0.801,0.2,0.003,0.006
-3,Nearest Neighbors,1,True,0.973,0.933,0.929,0.931
-4,Neural Network,1,True,0.978,0.966,0.925,0.945
-5,Quadratic Discriminant Analysis,1,True,0.916,1.0,0.579,0.708
-6,Random Forest,1,True,0.998,1.0,0.99,0.995
-7,Support Vector Machine,1,True,0.985,0.966,0.96,0.963
+,Model,ID,Authentication,Accuracy,Precision,Recall,F1,FAR,FRR,Balance
+0,AdaBoost,1,True,0.997,0.999,0.996,0.997,0.001,0.004,50/50
+1,AdaBoost,1,True,0.995,0.993,0.996,0.994,0.007,0.003,60/40
+2,AdaBoost,1,True,0.996,0.995,0.992,0.993,0.005,0.004,70/30
+3,AdaBoost,1,True,0.996,0.995,0.992,0.993,0.005,0.004,80/20
+4,AdaBoost,1,True,0.99,0.992,0.989,0.99,0.008,0.012,50/50
+5,Decision Tree,1,True,0.99,0.983,0.991,0.987,0.017,0.006,60/40
+6,Decision Tree,1,True,0.992,0.993,0.981,0.987,0.007,0.009,70/30
+7,Decision Tree,1,True,0.992,0.993,0.981,0.987,0.007,0.009,80/20
+8,Decision Tree,1,True,0.516,0.614,0.803,0.553,0.386,0.151,50/50
+9,Decision Tree,1,True,0.45,0.528,0.806,0.476,0.472,0.08,60/40
+10,Gaussian Naive Bayes,1,True,0.401,0.264,0.8,0.397,0.536,0.066,70/30
+11,Gaussian Naive Bayes,1,True,0.401,0.264,0.8,0.397,0.536,0.066,80/20
+12,Gaussian Naive Bayes,1,True,0.959,0.972,0.946,0.959,0.028,0.054,50/50
+13,Gaussian Naive Bayes,1,True,0.964,0.947,0.966,0.956,0.053,0.024,60/40
+14,Gaussian Naive Bayes,1,True,0.969,0.952,0.953,0.952,0.048,0.023,70/30
+15,Nearest Neighbors,1,True,0.969,0.952,0.953,0.952,0.048,0.023,80/20
+16,Nearest Neighbors,1,True,0.976,0.975,0.979,0.977,0.025,0.022,50/50
+17,Nearest Neighbors,1,True,0.977,0.974,0.97,0.972,0.026,0.02,60/40
+18,Nearest Neighbors,1,True,0.981,0.975,0.967,0.971,0.025,0.016,70/30
+19,Nearest Neighbors,1,True,0.981,0.975,0.967,0.971,0.025,0.016,80/20
+20,Neural Network,1,True,0.962,0.99,0.936,0.961,0.01,0.058,50/50
+21,Neural Network,1,True,0.939,0.995,0.854,0.916,0.005,0.088,60/40
+22,Neural Network,1,True,0.897,0.995,0.688,0.803,0.005,0.128,70/30
+23,Neural Network,1,True,0.897,0.995,0.688,0.803,0.005,0.128,80/20
+24,Neural Network,1,True,0.997,0.999,0.996,0.997,0.001,0.004,50/50
+25,Quadratic Discriminant Analysis,1,True,0.995,0.993,0.996,0.994,0.007,0.003,60/40
+26,Quadratic Discriminant Analysis,1,True,0.997,0.997,0.993,0.995,0.003,0.003,70/30
+27,Quadratic Discriminant Analysis,1,True,0.997,0.997,0.993,0.995,0.003,0.003,80/20
+28,Quadratic Discriminant Analysis,1,True,0.98,0.976,0.984,0.98,0.024,0.016,50/50
+29,Quadratic Discriminant Analysis,1,True,0.978,0.968,0.979,0.973,0.032,0.015,60/40
+30,Random Forest,1,True,0.981,0.968,0.975,0.971,0.032,0.012,70/30
+31,Random Forest,1,True,0.981,0.968,0.975,0.971,0.032,0.012,80/20
