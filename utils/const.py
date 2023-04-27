@@ -8,6 +8,7 @@ RAW = './Datasets/Raw/'
 PROCESSED = './Datasets/Processed/'
 RESULTS = './Results/'
 FIGURES = './Results/Figures/'
+COMPLEXITY = './Results/Complexity/'
 
 # Datasets
 DATASETS = sorted(os.listdir(PROCESSED))
