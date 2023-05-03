@@ -1,6 +1,7 @@
 # ID1: architecture (LFP = 1)
 # ID2: model (A123 = 1)
-# ID3: cycling type (all 3?)
+# ID3: cycling type
+
 import os
 import pandas as pd
 import warnings
@@ -50,8 +51,6 @@ for file in files:
 
             df_cycle = df.loc[df['Cycle_Index'] == cycle+1]
 
-            # print()
-            # print(len(df_cycle))
             df_charge, df_discharge = dqdv(df_cycle)
 
             # Ordering dQdV with respect to voltage

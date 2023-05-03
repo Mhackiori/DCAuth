@@ -79,8 +79,6 @@ for file in files:
 
                     df_cycle = df.loc[df['Cycle_Index'] == cycle+1]
 
-                    # print()
-                    # print(len(df_cycle))
                     df_charge, df_discharge = dqdv(df_cycle)
 
                     # Ordering dQdV with respect to voltage

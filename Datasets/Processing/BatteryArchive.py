@@ -69,8 +69,6 @@ for subset in subsets:
 
             # Extracting cycles
             n_cycles = int(df['Cycle_Index'].max())
-            # print()
-            # print(n_cycles)
 
             for cycle in range(n_cycles):
                 print(f'[🔢 {count}/{numFiles}] {cycle}/{n_cycles}', end='\r')

@@ -10,7 +10,7 @@ for j, dir in enumerate(sorted(os.listdir(cwd))):
             try:
                 print(f'🔢 [{j+1}/{len(os.listdir(cwd))}] [{k+1}/{len(files)}] {file}')
                     
-                # check if already processed
+                # Check if already processed
                 if file not in os.listdir(os.path.join(cwd, 'CALCE_4')) and file.split('.')[1] in ['xls', 'xlsx']:  
                     xls = pd.ExcelFile(os.path.join(os.path.join(cwd, dir), file))
                     # Extracting and merging sheets

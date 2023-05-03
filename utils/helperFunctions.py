@@ -5,6 +5,8 @@ def dqdv(df, equip='Arbin'):
     """
     Compute dQ/dV given a DataFrame
     """
+
+    # Data formats depending on equipment
     if equip == 'Arbin':
         voltage = 'Voltage(V)'
         current = 'Current(A)'
@@ -41,8 +43,10 @@ def dqdv(df, equip='Arbin'):
         charge = 'Q, As'
         discharge = 'Q, As'
 
+    # Computing diff for dV
     df['dV'] = df[voltage].diff()
 
+    # Splitting charging and dischargin cycles
     df_charge = df[df[current] > 0]
     df_charge['charge_dQ'] = df_charge[charge].diff()
     df_charge['dQ/dV'] = df_charge['charge_dQ'] / df_charge['dV']
@@ -51,6 +55,7 @@ def dqdv(df, equip='Arbin'):
     df_discharge['discharge_dQ'] = df_discharge[discharge].diff()
     df_discharge['dQ/dV'] = df_discharge['discharge_dQ'] / df_discharge['dV']
 
+    # Clean and smoothing
     df_charge = smooth(clean(df_charge, equip=equip))
     df_discharge = smooth(clean(df_discharge, equip=equip))
 
@@ -110,8 +115,8 @@ def smooth(df, windowlength=9, polyorder=3):
     """
     dqdv = df['dQ/dV'].values
     if len(dqdv) > windowlength:
-        df['smooth_dQ/dV'] = signal.savgol_filter(
-            dqdv, windowlength, polyorder)
-    else:
-        df['smooth_dQ/dV'] = df['dQ/dV']
+        df['dQ/dV'] = signal.savgol_filter(dqdv, windowlength, polyorder)
+        # df['smooth_dQ/dV'] = signal.savgol_filter(dqdv, windowlength, polyorder)
+    # else:
+    #     df['smooth_dQ/dV'] = df['dQ/dV']
     return df

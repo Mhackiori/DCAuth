@@ -1,6 +1,7 @@
 # ID1: architecture (LFP = 1)
 # ID2: model (APR18650M1A = 5)
-# ID3: batch(?)
+# ID3: batch
+
 import json
 import os
 import pandas as pd

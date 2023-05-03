@@ -13,6 +13,7 @@ COMPLEXITY = './Results/Complexity/'
 # Datasets
 DATASETS = sorted(os.listdir(PROCESSED))
 
+# Minimum DCA plot length
 MIN_LENGTH = 90
 
 # Balance

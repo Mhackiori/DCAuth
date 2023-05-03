@@ -23,9 +23,11 @@ if not sys.warnoptions:
 datasetName = __file__.split('/')[-1].split('.')[0]
 datasetDir = os.path.join(RAW, datasetName)
 
-subsets = [#'Low_Current_OCV',
-        #    'Incremental_Current_OCV',
-           'Dynamic']
+subsets = [
+    #'Low_Current_OCV',
+    # 'Incremental_Current_OCV',
+    'Dynamic'
+]
 
 for subset in subsets:
 
@@ -64,8 +66,6 @@ for subset in subsets:
 
                     df_cycle = df.loc[df['Cycle_Index'] == cycle+1]
 
-                    # print()
-                    # print(len(df_cycle))
                     df_charge, df_discharge = dqdv(df_cycle)
 
                     # Ordering dQdV with respect to voltage

@@ -1,5 +1,5 @@
 dirinfo = dir();
-dirinfo(~[dirinfo.isdir]) = [];  %remove non-directories
+dirinfo(~[dirinfo.isdir]) = [];  % Remove non-directories
 
 subdirinfo = cell(length(dirinfo));
 for K = 1 : length(dirinfo)
@@ -32,7 +32,7 @@ for i = 1 : 4
             dd = d{1,1};
             ddd= removevars(dd,{'Step', 'StepTime', 'Temp1', 'VARx1', 'VARx10', 'VARx11', 'VARx12', 'VARx13', 'VARx14', 'VARx15', 'VARx2', 'VARx3', 'VARx4', 'VARx5', 'VARx6', 'VARx7', 'VARx8', 'VARx9', 'TestTime'});
             
-            path2 = 'C:\Users\franc\Downloads\';
+            path2 = 'C:\Users\**username**\Downloads\';
             path2 = strcat(path2, field);
             path2 = strcat(path2, '.xlsx');
             try

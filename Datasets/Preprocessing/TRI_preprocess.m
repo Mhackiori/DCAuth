@@ -1,5 +1,5 @@
 dirinfo = dir();
-dirinfo(~[dirinfo.isdir]) = [];  %remove non-directories
+dirinfo(~[dirinfo.isdir]) = [];  % Remove non-directories
 
 subdirinfo = cell(length(dirinfo));
 for K = 1 : length(dirinfo)
@@ -29,7 +29,7 @@ for i = 1 : 8
             fprintf('%s',disppp);
             disp(' ');
             ddd = dd{k, 3};
-            path2 = 'C:\Users\franc\Downloads\';
+            path2 = 'C:\Users\**username**\Downloads\';
             path2 = strcat(path2, field);
             path2 = strcat(path2, '_');
             lll = k-1;
