@@ -55,7 +55,7 @@ First, start by cloning the repository.
 git clone https://github.com/Mhackiori/DCAuth.git
 cd DCAuth
 ```
-<sup>NOTE: if you're accessing this data from the anonymized repository, the above command might not work. Instead, you can download the repository from [here]().</sup>
+<sup>NOTE: if you're accessing this data from the anonymized repository, the above command might not work. Instead, you can download the repository from [here](https://figshare.com/s/a621342d486cfcc352f7).</sup>
 
 Then, install the required Python packages by running:
 
@@ -63,7 +63,7 @@ Then, install the required Python packages by running:
 pip install -r requirements.txt
 ```
 
-You now need to add the datasets in the repository. You can do this by downloading the zip file [here]() and extracting it in this repository.
+You now need to add the datasets in the repository. You can do this by downloading the zip file [here](https://figshare.com/s/a621342d486cfcc352f7) and extracting it in this repository.
 
 To replicate the results in our paper, you simply need to execute the [Jupyter Notebook](https://github.com/Mhackiori/DCAuth/blob/main/DCAuth.ipynb).
 
