@@ -6,7 +6,7 @@
     <img src="https://i.postimg.cc/HnXjDFpq/DCAuth.png" alt="Logo" width="350" height="100">
   </a>
 
-  <h1 align="center">Your Battery Is (Not) Safe</h1>
+  <h1 align="center">Your Battery Is A Blast!</h1>
 
   <p align="center">Safeguarding Against Counterfeit Batteries with Authentication
     <br />
