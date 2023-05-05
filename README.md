@@ -30,6 +30,9 @@
       <a href="#usage">Usage</a>
     </li>
     <li>
+      <a href="#flowchart">Flowchart</a>
+    </li>
+    <li>
       <a href="#datasets">Datasets</a>
     </li>
     <li>
@@ -66,6 +69,15 @@ pip install -r requirements.txt
 You now need to add the datasets in the repository. You can do this by downloading the zip file [here](https://figshare.com/s/a621342d486cfcc352f7) and extracting it in this repository.
 
 To replicate the results in our paper, you simply need to execute the [Jupyter Notebook](https://github.com/Mhackiori/DCAuth/blob/main/DCAuth.ipynb).
+
+<p align="right"><a href="#top">(back to top)</a></p>
+<div id="flowchart"></div>
+
+## 🚥 Flowchart
+
+In the next Figure, we summarize the functioning of the whole system by showing a flowchart of the different steps happening before the authentication response.
+
+![Flowchart](https://i.postimg.cc/KzDMRcPL/04-Flowchart-1.png "Flowchart")
 
 <p align="right"><a href="#top">(back to top)</a></p>
 <div id="datasets"></div>
