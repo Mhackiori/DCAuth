@@ -10,7 +10,7 @@
 
   <p align="center">Safeguarding Against Counterfeit Batteries with Authentication
     <br />
-    <a href=""><strong>Paper in progress »</strong></a>
+    <a href="https://arxiv.org/abs/2309.03607"><strong>Preprint available »</strong></a>
     <br />
     <br />
     <a href="https://www.math.unipd.it/~fmarchio/">Francesco Marchiori</a>
@@ -45,7 +45,7 @@
 
 ## 🧩 Abstract
 
->Lithium-ion (Li-ion) batteries have become the primary power source in different domains due to their higher energy and power density. With their dominant application in mobile phones, notebooks, and, in particular, electric cars, their market in 2022 was estimated to be up to 48 billion U.S. dollars. However, the mass employment of this cell architecture is also leading to counterfeiting issues, with many third parties exaggerating their capacity, disguising compromised cells as legitimate, and ignoring safety measures to push down their price. This problem becomes particularly relevant in electric vehicles (EVs), where the proper functioning of each cell is crucial for the safety of the driver and the passengers. In this paper, we propose **DCAuth** and **EISthentication**, two novel methodologies for the automatic authentication of lithium-ion batteries using data retrievable from their regular usage. Without relying on any external device, our techniques are resilient to the most common and critical counterfeit practices and are scalable to several batteries and devices. Our methods can correctly identify both lithium cell architectures and cell samples using, respectively, Differential Capacity Analysis (DCA) and Electrochemical Impedance Spectroscopy (EIS). To evaluate the effectiveness of our proposed methodologies, we analyze time-series data from a large number of datasets that we have processed to extract meaningful features for our analysis. Both our methodologies obtain high accuracy values in the authentication of battery chemistries and battery models. With this work, manufacturers can ensure that each device is boarding a battery from a pre-defined set of authorized models, thus guaranteeing their operative state and safety measures.
+>Lithium-ion (Li-ion) batteries are the primary power source in various applications due to their high energy and power density. Their market was estimated to be up to 48 billion U.S. dollars in 2022. However, the widespread adoption of Li-ion batteries has resulted in counterfeit cell production, which can pose safety hazards to users. Counterfeit cells can cause explosions or fires, and their prevalence in the market makes it difficult for users to detect fake cells. Indeed, current battery authentication methods can be susceptible to advanced counterfeiting techniques and are often not adaptable to various cells and systems. In this paper, we improve the state of the art on battery authentication by proposing two novel methodologies, **DCAuth** and **EISthentication**, which leverage the internal characteristics of each cell through Machine Learning models. Our methods automatically authenticate lithium-ion battery models and architectures using data from their regular usage without the need for any external device. They are also resilient to the most common and critical counterfeit practices and can scale to several batteries and devices. To evaluate the effectiveness of our proposed methodologies, we analyze time-series data from a total of 20 datasets that we have processed to extract meaningful features for our analysis. Our methods achieve high accuracy in battery authentication for both architectures (up to 0.99) and models (up to 0.96). Moreover, our methods offer comparable identification performances. By using our proposed methodologies, manufacturers can ensure that devices only use legitimate batteries, guaranteeing the operational state of any system and safety measures for the users.
 
 <p align="right"><a href="#top">(back to top)</a></p>
 <div id="usage"></div>
@@ -58,7 +58,6 @@ First, start by cloning the repository.
 git clone https://github.com/Mhackiori/DCAuth.git
 cd DCAuth
 ```
-<sup>NOTE: if you're accessing this data from the anonymized repository, the above command might not work. Instead, you can download the repository from [here](https://figshare.com/s/a621342d486cfcc352f7).</sup>
 
 Then, install the required Python packages by running:
 
