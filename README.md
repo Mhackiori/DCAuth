@@ -58,11 +58,13 @@
 Please, cite this work when reffering to DCAuth.
 
 ```
-@article{marchiori2023your,
-  title={Your Battery Is a Blast! Safeguarding Against Counterfeit Batteries with Authentication},
-  author={Marchiori, Francesco and Conti, Mauro},
-  journal={arXiv preprint arXiv:2309.03607},
-  year={2023}
+@misc{marchiori2023battery,
+      title={Your Battery Is a Blast! Safeguarding Against Counterfeit Batteries with Authentication}, 
+      author={Francesco Marchiori and Mauro Conti},
+      year={2023},
+      eprint={2309.03607},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR}
 }
 ```
 
