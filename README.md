@@ -10,7 +10,7 @@
 
   <p align="center">Safeguarding Against Counterfeit Batteries with Authentication
     <br />
-    <a href="https://arxiv.org/abs/2309.03607"><strong>Preprint available »</strong></a>
+    <a href="https://doi.org/10.1145/3576915.3623179"><strong>Paper Available »</strong></a>
     <br />
     <br />
     <a href="https://www.math.unipd.it/~fmarchio/">Francesco Marchiori</a>
@@ -58,13 +58,20 @@
 Please, cite this work when reffering to DCAuth.
 
 ```
-@misc{marchiori2023battery,
-      title={Your Battery Is a Blast! Safeguarding Against Counterfeit Batteries with Authentication}, 
-      author={Francesco Marchiori and Mauro Conti},
-      year={2023},
-      eprint={2309.03607},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR}
+@inproceedings{10.1145/3576915.3623179,
+  author = {Marchiori, Francesco and Conti, Mauro},
+  title = {Your Battery Is a Blast! Safeguarding Against Counterfeit Batteries with Authentication},
+  year = {2023},
+  isbn = {9798400700507},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3576915.3623179},
+  doi = {10.1145/3576915.3623179},
+  pages = {105–119},
+  numpages = {15},
+  keywords = {lithium-ion batteries, identification, machine learning, authentication},
+  location = {, Copenhagen, Denmark, },
+  series = {CCS '23}
 }
 ```
 
